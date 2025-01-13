@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Best Prompts",
+    "version": "1.0",
+    "description": "Access the best prompts for ChatGPT with one click!",
+    "icons": {
+        "128": "logo.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+        
+    },
+    "permissions": [
+        "storage"
+    ]
+}

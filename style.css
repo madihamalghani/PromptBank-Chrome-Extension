@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    background-color: #1a1a1a;
+    color: white;
+    max-height: 600px;
+}
+
+
+
+.dark {
+    background-color: #1a1a1a;
+        color: #ffffff;
+}
+
+#app {
+    padding: 16px;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#search {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#prompt-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.prompt-item {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px; */
+    /* font:19px; */
+    display: grid;
+    grid-template-columns: 80% 20%; /* Text takes 80%, button takes 20% */
+    align-items: center; /* Center content vertically */
+    gap: 10px; /* Space between the grid items */
+    margin-bottom: 8px;
+    background-color: #333333; /* Slightly lighter background for items */
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.prompt-item button {
+    /* background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width:60px */
+    /* background-color: #007bff; */
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /* background: #000046; 
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+background: linear-gradient(to right, #1CB5E0, #000046);  */
+
+    color: #ffffff;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; /* Automatically adjust width */
+    text-align: center;
+    font-size: 14px;
+}
+.prompt-item button:hover{
+    background: #003973;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.hidden {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+footer {
+    margin-top: 16px;
+    text-align: center;
+    color: #ccc; /* Muted color for the footer */
+
+}
