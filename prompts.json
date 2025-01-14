@@ -1,14 +1,166 @@
 [
     {
         "id": 1,
-        "text": "Explain complex topics in simple terms."
+        "text": "This is my function. Can you optimize it for better performance? Suggest any improvements in readability, efficiency, or code structure"
     },
     {
         "id": 2,
-        "text": "Summarize this article in bullet points."
+        "text": "Here is my code. It has a bug. Please analyze the code, identify the bug, and suggest a fix. If possible, explain the issue in simple terms for me, so that i can understand"
     },
     {
         "id": 3,
-        "text": "Generate creative writing ideas."
+        "text": "You are an expert teacher who simplifies complex concepts. Teach me about [topic] using the Pareto Principle, focusing on the 20% of key ideas, concepts, or methods that will help me understand and achieve 80% of the results. Provide practical examples, step-by-step guidence and actionable tips to apply this knowledge effectively"
+    },
+    {
+        "id": 4,
+        "text": "Tell me everything about [topic] in [programming-language] that I can learn and practice in 1 hour. Give me exercises that I can solve and challenge me with tricky questions and push my limits"
+    },
+    {
+        "id": 5,
+        "text": "You are a coding tutor for Fatima. Fatima is currently trying to learn [any-programming language]. She has no prior programming experience. So guide her on her journey and give her a roadmap with realistic timeframe. Start with the basics and progressed to advanced concepts gradually.Keep recommending external resources that Fatima can Google Search or visit anytime."
+    },
+    {
+        "id":6,
+        "text":"Review the following code and re-write it to modern es6 programming standards and formatting:[insert code here]"
+    },
+    {
+        "id":7,
+        "text":"Review your provided code 'tempFunction' for any logical or security concerns and provide a list of recommendations."
+    },
+    {
+        "id":8,
+        "text":"Review your above recommendations. Tell me why you were wrong and if any recommendations were overlooked or incorrectly added?"
+    },
+    {
+        "id":9,
+        "text":"I'll provide you with a piece of code that I made and I need you give me alternatives to do the same in other way:[INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":10,
+        "text":"I don't know how to code, but I want to understand how this works. Explain the following code to me in a way that a non-technical person can understand. Always use Markdown with nice formatting to make it easier to follow. Organize it by sections with headers. Include references to the code as markdown code blocks in each section. The code: [insert code here]"
+    },
+    {
+        "id":11,
+        "text":"Please add comprehensive documentation for [file or module name], including clear and concise explanations of its purpose, design, and implementation. Consider including examples of how to use the module, as well as any relevant diagrams or flow charts to help illustrate its workings. Ensure that the documentation is easily accessible to other developers and is updated as the module evolves. Consider using documentation tools such as inline comments, markdown files, or a documentation generator to simplify the process. [insert code here]"
+    },
+    {
+        "id":12,
+        "text":"Write a cheat sheet for [markdown formatting]."
+    },
+    {
+        "id":13,
+        "text":"Generate documentation for the code below. You should include detailed instructions to allow a developer to run it on a local machine, explain what the code does, and list vulnerabilities that exist in this code. [enter code]"
+    },
+    {
+        "id":14,
+        "text":"Write a detailed blog on How to build a [COVID tracker] using React with proper structuring of code."
+    },
+    {
+        "id":15,
+        "text":"Context: I'm starting a new position as backend developer and I have to start to understand how some functions are working. Technologies: [INSERT YOUR TECHNOLOGIES HERE].You have to: explain me the code line by line [INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":16,
+        "text":"I have a piece of code and I need you do a refactor of it: [INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":17,
+        "text":"Refactor the following code to modern es6 programming standards:[INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":18,
+        "text":"Review this code for errors and refactor to fix any issues: [INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":19,
+        "text":"I'm developing software in [INSERT YOUR TECHNOLOGIES HERE] and I need you help me to find and fix all the errors in my code, following the best practices. I'll provide you my code and you'll give me the code with all the corrections explained line by line"
+    },
+    {
+        "id":20,
+        "text":"I'm developing software in [INSERT YOUR TECHNOLOGIES HERE] and I need you help me to find and fix all the errors in my code, following the best practices. I'll provide you my code and you'll give me the code with all the corrections explained line by line"
+    },
+    {
+        "id":21,
+        "text":"Please find and fix the bug in the [react component name] component that is causing [describe the issue]. [INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":22,
+        "text":"Please write unit tests for [file or module name] to ensure its proper functioning [insert code here]"
+    },
+    {   "id":23,
+        "text":""
+    },
+    {
+        "id":24,
+        "text":"Rewrite the following code in [programming language]: [INSERT YOUR CODE HERE]"
+    },
+    {
+        "id":25,
+        "text":"Please implement responsive design for the [component name] component to ensure that it looks and functions correctly on different screen sizes and devices. Consider using [responsive design technique or library] to achieve this. [insert code here]"
+    },
+    {
+        "id":26,
+        "text":"Write a Dockerfile for: [FRAMEWORK]"
+    },
+    {
+        "id":27,
+        "text":"Write a regular expression that matches / Write a RegEx pattern for: [REQUEST]"
+    },
+    {
+        "id":28,
+        "text":"Create a [PLATFORM] class from this JSON object [JSON]"
+    },
+    {
+        "id":29,
+        "text":"You are a world-class software engineer. I need you to draft a technical software spec for building the following:[ DESCRIPTION ].Think through how you would build it step by step. Then, respond with the complete spec as a well-organized markdown file.I will then reply with [build],and you will proceed to implement the exact spec, writing all of the code needed. I will periodically interject with [continue] to >prompt you to keep going. Continue until complete."
+    },
+    {
+        "id":30,
+        "text":"Brainstorm creative and unique product ideas for [insert industry or market].Focus on solving customer pain points and providing exceptional value."
+    },
+    {
+        "id":31,
+        "text":"Give me a bullet point summary for [PARAPGRAPHS]"
+    },
+    {
+        "id":32,
+        "text":"I am working on [project description]. what kind of unique and useful features can I add in it? I want to make my project unique and user-friendly. "
+    },
+    {
+        "id":33,
+        "text":"I am telling you the details of a project. Make this project as a masterpiece."
+    },
+    {
+        "id":34,
+        "text":"Give the explanation in clear forward American English to insure accessibility and understanding, maintain a clear and straightforward tone, ensuring accessibility and ease of understanding for all learners"
+    },
+    {
+        "id":35,
+        "text":"If I had to create a ppt on the topic [topic here]. Could you suggest some catchy titles for my ppt?"
+    },
+    {
+        "id":36,
+        "text":"Can you create byline for this title"
+    },
+    {
+        "id":37,
+        "text":"Create a slide deck of [14] slides about [topic]"
+    },
+    {
+        "id":38,
+        "text":"I am a Computer Science Engineer with 3 years of relevant experience in software development. Can you suggest an email template that I can use to send my resume to the HR of a potential employee"
+    },
+    {
+        "id":39,
+        "text":"Explain this topic like you are explaining it to a baby"
+    },
+    {
+        "id":40,
+        "text":"Check the text for any spelling, grammatical and punctuation errors and correct them"
+    },
+    {
+        "id":41,
+        "text":"Re-write any sentences you deem to be hard to read or poorly written to improve clearity and make them sound better"
     }
+    
 ]

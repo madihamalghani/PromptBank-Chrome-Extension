@@ -20,7 +20,7 @@ async function loadPrompts() {
     renderPrompts(prompts);
 }
 
-// Save Prompts to LocalStorage
+
 function savePrompts(prompts) {
     localStorage.setItem("prompts", JSON.stringify(prompts));
 }
@@ -178,3 +178,5 @@ document.getElementById("download-json").addEventListener("click", () => {
 
     URL.revokeObjectURL(url);//del url
 });
+// as i don't want to work with local storage for now
+// localStorage.clear()
