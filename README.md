@@ -18,4 +18,4 @@ The "ChatGPT Prompt Manager: PromptBank" is a Chrome extension specifically desi
 9. Event Planning Assistant
 10. Personal Wishlist Manager
 
-
+![Screenshot (508)](https://github.com/user-attachments/assets/e0103234-5de2-4a91-9881-f0fdb45e8de4)
